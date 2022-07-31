@@ -33,8 +33,23 @@
 }
 
 .navbar-links:hover a {
+  color: black;
 }
 
 .navbar-toggle {
   display: none;
 }
+
+@media (max-width: 600px) {
+  .navbar ul {
+    flex-wrap: wrap;
+  }
+  .navbar-toggle {
+    display: block;
+  }
+  .navbar-links {
+    display: none;
+    width: 100%;
+    text-align: center;
+  }
+} ;
