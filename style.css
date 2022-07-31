@@ -1,7 +1,29 @@
-.container {
-  width: 960px;
-  margin: 0 auto;
+li {
+  list-style-type: none;
 }
 
 .header_container {
+  width: 960px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+}
+.nav-items {
+  display: flex;
+  align-items: center;
+}
+.nav-items li {
+  margin-right: 30px;
+}
+
+.nav-items li a {
+  text-decoration: none;
+  /* color: #fff; */
+}
+.login_button {
+  background-color: #e76f51;
+  border: none;
+  border-radius: 5px;
+  padding: 10px 20px;
+  color: #fff;
 }
