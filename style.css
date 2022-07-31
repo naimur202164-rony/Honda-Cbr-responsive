@@ -47,6 +47,34 @@
 #login_button {
   background-color: #e76f51;
 }
+/* Banner */
+
+.banner {
+  display: flex;
+}
+
+.banner .banner_content {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+p {
+  white-space: wrap;
+}
+.banner .banner_image img {
+  width: 100%;
+  height: 100%;
+}
+/* Banner */
+
+@media (max-width: 991px) {
+  .banner {
+    display: flex;
+    flex-direction: column;
+  }
+}
+
+/* Header */
 
 @media (max-width: 600px) {
   .navbar ul {
@@ -64,3 +92,4 @@
     display: block;
   }
 }
+/* Header */
