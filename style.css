@@ -40,3 +40,13 @@ li {
   color: #fff;
   cursor: pointer;
 }
+@media only screen and (max-width: 600px) {
+  .nav-items {
+    display: block;
+    flex-direction: row;
+  }
+
+  body {
+    background-color: lightblue;
+  }
+}
