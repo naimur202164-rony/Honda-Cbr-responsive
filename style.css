@@ -1,5 +1,16 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins&display=swap");
+
+body {
+  font-family: "poppins
+    ";
+}
+
 li {
   list-style-type: none;
+}
+
+.container {
+  background-color: #264653;
 }
 
 .header_container {
@@ -18,7 +29,8 @@ li {
 
 .nav-items li a {
   text-decoration: none;
-  /* color: #fff; */
+
+  color: #fff;
 }
 .login_button {
   background-color: #e76f51;
@@ -26,4 +38,5 @@ li {
   border-radius: 5px;
   padding: 10px 20px;
   color: #fff;
+  cursor: pointer;
 }
