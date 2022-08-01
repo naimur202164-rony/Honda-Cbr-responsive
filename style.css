@@ -111,6 +111,8 @@ p {
 .card_container {
   display: flex;
   justify-content: space-between;
+  margin-top: 1rem;
+  margin-bottom: 1rem;
 }
 .card img {
   width: 100%;
@@ -143,6 +145,10 @@ p {
 .card p {
   margin: 0.4rem;
 }
+
+/*  Happy  Clients */
+
+/*  Happy  Clients */
 
 @media (max-width: 600px) {
   .container {
