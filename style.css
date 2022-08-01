@@ -107,6 +107,62 @@ p {
   font-weight: bold;
 }
 
+/* Latest News */
+.card_container {
+  display: flex;
+  justify-content: space-between;
+}
+.card img {
+  width: 100%;
+  padding: 0.7rem;
+  height: 100%;
+}
+.card {
+  width: 20rem;
+  border: 1px solid rgb(201, 190, 190);
+  padding: 0.3rem;
+  border-radius: 0.5rem;
+}
+.news {
+  text-align: center;
+  font-weight: bold;
+  font-size: 1.5rem;
+}
+.card button {
+  margin-top: 0.5rem;
+  background-color: #e76f51;
+  color: #e0e0e0;
+  padding: 0.7rem 1.5rem;
+  border: none;
+  border-radius: 0.4rem;
+}
+
+.card h2 {
+  margin-top: 0.3rem;
+}
+.card p {
+  margin: 0.4rem;
+}
+
+@media (max-width: 600px) {
+  .container {
+    width: auto;
+  }
+
+  .card_container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+
+  .card_container .card {
+    margin: 0.5rem;
+    width: 100%;
+  }
+}
+
+/* Latest News */
+
 /* Honda Container */
 @media (max-width: 600px) {
   .container {
