@@ -81,13 +81,31 @@ p {
   width: 100%;
   height: 100%;
 }
-/* Banner */
+/* Honda Container */
 
-@media (max-width: 991px) {
+.honda_container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+/* Honda Container */
+@media (max-width: 600px) {
   .container {
     width: auto;
   }
-  .banner {
+  .honda_container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+  }
+} /* Banner */
+@media (max-width: 600px) {
+  .container {
+    width: auto;
+  }
+  .banner .banner {
     display: flex;
     flex-direction: column;
   }
