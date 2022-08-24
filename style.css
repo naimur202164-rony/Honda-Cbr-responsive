@@ -14,13 +14,30 @@ body {
   --btn-color: #e76f51;
   --text-color: #e0e0e0;
   --white-color: #ffffff;
+  --peragraph-color: #6c6c6c;
 }
 
 .container {
   max-width: 1024px;
   margin: 0 auto;
 }
+.btn {
+  padding: 10px;
+  border-radius: 5px;
+  border: 1px solid var(--btn-color);
+  text-decoration: none;
 
+  color: var(--btn-color);
+}
+
+.btn:hover {
+  padding: 10px;
+  border-radius: 5px;
+  border: 1px solid var(--btn-color);
+  text-decoration: none;
+  background: var(--btn-color);
+  color: var(--white-color);
+}
 /* Header */
 header {
   background: var(--dark-blue-color);
@@ -120,4 +137,37 @@ header .hero-section .right img {
   justify-content: center;
   align-items: center;
   gap: 120px;
+}
+
+/* Lastest News Section */
+.news {
+  padding: 100px 0px;
+}
+.honda-container {
+  display: flex;
+  gap: 20px;
+  align-items: center;
+  justify-content: center;
+}
+
+.honda {
+  padding: 20px;
+  border: 1px solid gainsboro;
+  border-radius: 8px;
+  box-shadow: 0.5px 0.5px 0.5px 0.5px solid gainsboro;
+}
+
+.honda h2 {
+  padding: 10px 0px;
+  font-size: 28px;
+  font-family: "Popins", sans-serif;
+}
+.honda p {
+  line-height: 2em;
+  color: var(--peragraph-color);
+  padding: 10px 0px;
+}
+
+.honda a.btn {
+  margin-top: 20px;
 }
