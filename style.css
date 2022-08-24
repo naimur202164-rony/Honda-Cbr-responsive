@@ -16,6 +16,7 @@ body {
   --white-color: #ffffff;
   --peragraph-color: #6c6c6c;
   --blue-color: #23a6f0;
+  --border-color: #d5e5fb;
 }
 
 .container {
@@ -235,5 +236,34 @@ header .hero-section .right img {
 
 /* Question-section */
 .frequently {
-  padding: 100px 0px;
+  padding: 60px 0px;
+}
+
+.frequently h2 {
+  padding: 20px 0px;
+  font-family: "Popins", sans-serif;
+  text-align: center;
+  color: var(--dark-blue-color);
+  font-size: 48px;
+}
+.frequently span {
+  color: var(--btn-color);
+}
+.frequently .question-container {
+  display: flex;
+  align-items: center;
+  gap: 130px;
+  justify-content: space-between;
+}
+.frequently .question-container .right img {
+  width: 420px;
+  height: 400px;
+}
+.frequently .question-container .left .text-container .texts {
+  margin: 10px 0px;
+  padding: 20px 24px;
+  border: 1px solid var(--border-color);
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
 }
