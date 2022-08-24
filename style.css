@@ -45,6 +45,15 @@ header nav ul li a {
   text-decoration: none;
 }
 
-/* Hero Section */
-.hero-section .left {
+header nav ul li a.btn {
+  background: var(--btn-color);
+  padding: 10px 24px;
+  border-radius: 5px;
 }
+
+header nav li:nth-last-child(1) {
+  background: #ffffff;
+  margin-left: 100px;
+}
+
+/* Hero Section */
