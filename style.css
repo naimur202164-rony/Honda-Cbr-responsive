@@ -12,7 +12,7 @@ body {
 :root {
   --dark-blue-color: #264653;
   --btn-color: #e76f51;
-  --text-color: #6c6c6c;
+  --text-color: #e0e0e0;
   --white-color: #ffffff;
 }
 
@@ -56,3 +56,36 @@ header nav li:nth-last-child(1) {
 }
 
 /* Hero Section */
+header .hero-section {
+  display: flex;
+  padding: 100px 30px;
+  justify-content: space-between;
+  gap: 10px;
+}
+
+header .hero-section .left p {
+  font-family: "Popins", sans-serif;
+  font-size: 14px;
+  line-height: 2em;
+
+  color: var(--text-color);
+  padding: 10px 0px;
+}
+header .hero-section .left .order-btn {
+  background: var(--btn-color);
+  color: var(--white-color);
+  padding: 10px 45px;
+  text-decoration: none;
+  border-radius: 5px;
+}
+header .hero-section .left h1 {
+  font-size: 48px;
+  font-weight: bold;
+  padding: 5px 0px;
+  color: var(--white-color);
+}
+
+header .hero-section .right img {
+  overflow: hidden;
+  max-width: 450px;
+}
