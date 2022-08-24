@@ -15,6 +15,7 @@ body {
   --text-color: #e0e0e0;
   --white-color: #ffffff;
   --peragraph-color: #6c6c6c;
+  --blue-color: #23a6f0;
 }
 
 .container {
@@ -213,4 +214,17 @@ header .hero-section .right img {
   text-align: center;
   line-height: 2em;
   color: var(--peragraph-color);
+}
+.client-container .client .star {
+  text-align: center;
+}
+.client-container .client .fa-star {
+  color: var(--btn-color);
+}
+.client-container .client .fa-star:last-child {
+  color: var(--peragraph-color);
+}
+.client-container .client h4 {
+  color: var(--blue-color);
+  text-align: center;
 }
