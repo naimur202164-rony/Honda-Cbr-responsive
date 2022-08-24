@@ -186,6 +186,7 @@ header .hero-section .right img {
   padding: 100px 0px;
 }
 .clients h2 {
+  padding: 15px 0px;
   text-align: center;
   font-size: 48px;
 
@@ -201,7 +202,9 @@ header .hero-section .right img {
   justify-content: space-between;
   gap: 30px;
 }
-
+.client-container .client {
+  border: 1px solid #dbd2d2;
+}
 .client-container .client {
   padding: 40px 35px;
 }
@@ -216,6 +219,7 @@ header .hero-section .right img {
   color: var(--peragraph-color);
 }
 .client-container .client .star {
+  padding: 5px 0px;
   text-align: center;
 }
 .client-container .client .fa-star {
@@ -227,4 +231,9 @@ header .hero-section .right img {
 .client-container .client h4 {
   color: var(--blue-color);
   text-align: center;
+}
+
+/* Question-section */
+.frequently {
+  padding: 100px 0px;
 }
