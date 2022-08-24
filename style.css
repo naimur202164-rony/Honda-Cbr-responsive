@@ -1,0 +1,10 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+:root {
+  --dark-blue-color: #264653;
+  --btn-color: #e76f51;
+  --text-color: #6c6c6c;
+}
