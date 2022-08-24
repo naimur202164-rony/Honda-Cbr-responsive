@@ -143,6 +143,13 @@ header .hero-section .right img {
 .news {
   padding: 100px 0px;
 }
+
+.news h2 {
+  padding: 10px 0px;
+  text-align: center;
+  font-size: 48px;
+  font-weight: bold;
+}
 .honda-container {
   display: flex;
   gap: 20px;
@@ -171,3 +178,7 @@ header .hero-section .right img {
 .honda a.btn {
   margin-top: 20px;
 }
+
+/* Clients Section */
+
+.clients;
