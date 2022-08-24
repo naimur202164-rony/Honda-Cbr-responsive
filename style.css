@@ -89,3 +89,13 @@ header .hero-section .right img {
   overflow: hidden;
   max-width: 450px;
 }
+/* Feature Section */
+.feature {
+  padding: 55px 0px;
+}
+.feature h1 {
+  font-family: "Popins", sans-serif;
+  font-size: 48px;
+  text-align: center;
+  color: var(--dark-blue-color);
+}
