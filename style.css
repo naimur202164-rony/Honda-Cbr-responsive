@@ -52,7 +52,6 @@ header nav ul li a.btn {
 }
 
 header nav li:nth-last-child(1) {
-  background: #ffffff;
   margin-left: 100px;
 }
 
