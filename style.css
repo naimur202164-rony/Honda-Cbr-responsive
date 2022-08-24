@@ -194,3 +194,23 @@ header .hero-section .right img {
 .clients span {
   color: var(--btn-color);
 }
+.client-container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 30px;
+}
+
+.client-container .client {
+  padding: 40px 35px;
+}
+
+.client-container .client img {
+  display: block;
+  margin: 0 auto;
+}
+.client-container .client p {
+  text-align: center;
+  line-height: 2em;
+  color: var(--peragraph-color);
+}
