@@ -5,8 +5,46 @@
   padding: 0;
   box-sizing: border-box;
 }
+
+body {
+  font-family: "Poppins", sans-serif;
+}
 :root {
   --dark-blue-color: #264653;
   --btn-color: #e76f51;
   --text-color: #6c6c6c;
+  --white-color: #ffffff;
+}
+
+.container {
+  max-width: 1024px;
+  margin: 0 auto;
+}
+
+/* Header */
+header {
+  background: var(--dark-blue-color);
+}
+header nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+header nav ul {
+  display: flex;
+  align-items: center;
+  list-style: none;
+  gap: 36px;
+  padding: 35px 0px;
+}
+
+header nav ul li a {
+  color: var(--white-color);
+  font-family: "Poopins", sans-serif;
+  text-decoration: none;
+}
+
+/* Hero Section */
+.hero-section .left {
 }
