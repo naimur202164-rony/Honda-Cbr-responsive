@@ -17,6 +17,7 @@ body {
   --peragraph-color: #6c6c6c;
   --blue-color: #23a6f0;
   --border-color: #d5e5fb;
+  --dark: #0b0d17;
 }
 
 .container {
@@ -30,6 +31,14 @@ body {
   text-decoration: none;
 
   color: var(--btn-color);
+}
+.login {
+  padding: 10px 25px;
+  background: var(--btn-color);
+  border-radius: 5px;
+  border: 1px solid var(--btn-color);
+  text-decoration: none;
+  color: var(--white-color);
 }
 
 .btn:hover {
@@ -266,4 +275,50 @@ header .hero-section .right img {
   display: flex;
   align-items: center;
   justify-content: space-between;
+}
+
+/* Footer Section */
+
+footer {
+  background: var(--dark);
+}
+footer .footer-container {
+  padding: 56px 0px;
+  display: flex;
+  justify-content: space-between;
+}
+footer .footer-container ul {
+  display: flex;
+  padding: 12px 0px;
+  justify-items: center;
+  gap: 24px;
+  list-style: none;
+}
+footer .footer-container li a {
+  font-family: "Popins", sans-serif;
+  text-decoration: none;
+  color: var(--text-color);
+}
+
+footer .footer-container .left p {
+  padding: 10px 0px;
+  color: var(--text-color);
+  font-family: "Popins", sans-serif;
+}
+
+/* Right-section */
+footer .footer-container .right h3 {
+  align-items: flex-start;
+  color: var(--text-color);
+  font-size: 18px;
+  font-family: "Popins", sans-serif;
+}
+footer .footer-container .right {
+  display: flex;
+
+  flex-direction: column;
+}
+
+footer .footer-container .right img {
+  padding: 12px 0px;
 }
