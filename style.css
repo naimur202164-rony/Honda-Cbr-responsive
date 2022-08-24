@@ -112,3 +112,12 @@ header .hero-section .right img {
   margin: 0 auto;
   background: var(--btn-color);
 }
+/* Bike Container */
+
+.bike-container {
+  padding: 100px 0px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 120px;
+}
