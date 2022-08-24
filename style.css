@@ -181,4 +181,16 @@ header .hero-section .right img {
 
 /* Clients Section */
 
-.clients;
+.clients {
+  padding: 100px 0px;
+}
+.clients h2 {
+  text-align: center;
+  font-size: 48px;
+
+  font-family: "Popins", sans-serif;
+  color: var(--dark-blue-color);
+}
+.clients span {
+  color: var(--btn-color);
+}
