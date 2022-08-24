@@ -99,3 +99,16 @@ header .hero-section .right img {
   text-align: center;
   color: var(--dark-blue-color);
 }
+.feature p {
+  color: var(--btn-color);
+  text-align: center;
+  font-family: "Popins", sans-serif;
+  font-weight: bold;
+}
+.feature .line {
+  margin: 5px 0px;
+  height: 2px;
+  width: 50px;
+  margin: 0 auto;
+  background: var(--btn-color);
+}
