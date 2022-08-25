@@ -58,7 +58,9 @@ header nav {
   justify-content: space-between;
   align-items: center;
 }
-
+header .mobile-nav {
+  display: none;
+}
 header nav ul {
   display: flex;
   align-items: center;
@@ -321,4 +323,15 @@ footer .footer-container .right {
 
 footer .footer-container .right img {
   padding: 12px 0px;
+}
+
+/* Responsive */
+
+@media (max-width: 800px) {
+  header .desktop-nav {
+    display: none;
+  }
+  header .mobile-nav {
+    display: block;
+  }
 }
