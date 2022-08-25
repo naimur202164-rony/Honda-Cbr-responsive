@@ -400,6 +400,24 @@ footer .footer-container .right img {
     justify-content: center;
     width: 100%;
   }
+  .question-container .right img {
+    width: 100%;
+  }
 
   /* Footer-Section */
+
+  footer .footer-container {
+    margin-top: 10px;
+    display: flex;
+    flex-direction: column;
+    overflow: hidden;
+    justify-content: flex-start;
+    width: 100%;
+  }
+  footer .footer-container .right h3 {
+    font-size: 24px;
+  }
+  footer .footer-container .right img {
+    width: 60%;
+  }
 }
