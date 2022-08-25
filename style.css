@@ -332,9 +332,37 @@ footer .footer-container .right img {
     display: none;
   }
   header .mobile-nav {
-    display: block;
+    width: 100%;
+    display: none;
     display: flex;
-    justify-content: flex-end;
+    flex-direction: column;
+    position: relative;
+  }
+  header .mobile-nav ul {
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+  header .mobile-nav ul li a:hover {
+    cursor: pointer;
+    color: #23a6f0;
+  }
+  header .mobile-nav li:nth-last-child(1) {
+    margin-left: 10px;
+  }
+
+  /* Toogles */
+
+  .toogle,
+  .close {
+    height: auto;
+    width: auto;
+    margin-top: 1rem;
+    margin-left: 20rem;
+    position: absolute;
+    color: #ffffff;
   }
   /* Hero section */
 
@@ -349,6 +377,7 @@ footer .footer-container .right img {
   }
 
   .hero-section .right img {
+    width: 100%;
     padding: 1.4rem 0rem;
     display: flex;
     align-items: center;
@@ -379,6 +408,7 @@ footer .footer-container .right img {
     flex-direction: column;
   }
   .news .honda-container .honda-img {
+    width: 100%;
     display: flex;
     align-items: center;
     justify-content: center;
