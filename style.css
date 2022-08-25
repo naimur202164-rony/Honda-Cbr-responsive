@@ -333,5 +333,8 @@ footer .footer-container .right img {
   }
   header .mobile-nav {
     display: block;
+    display: flex;
+    justify-content: flex-end;
   }
+  /* Hero section */
 }
