@@ -337,4 +337,21 @@ footer .footer-container .right img {
     justify-content: flex-end;
   }
   /* Hero section */
+
+  .hero-section {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .hero-section p {
+    margin: 1rem 0;
+  }
+
+  .hero-section .right img {
+    padding: 1.4rem 0rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+  }
 }
