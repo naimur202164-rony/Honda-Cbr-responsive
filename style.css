@@ -334,6 +334,7 @@ footer .footer-container .right img {
   header .mobile-nav {
     width: 100%;
     display: flex;
+
     flex-direction: column;
     position: relative;
   }
@@ -363,7 +364,15 @@ footer .footer-container .right img {
     position: absolute;
     color: #ffffff;
   }
-
+  .close {
+    display: none;
+    height: auto;
+    width: auto;
+    margin-top: 1rem;
+    margin-left: 20rem;
+    position: absolute;
+    color: #ffffff;
+  }
   /* Hero section */
 
   .hero-section {
@@ -430,7 +439,7 @@ footer .footer-container .right img {
     justify-content: center;
     width: 100%;
   }
-  .question-container .right img {
+  .frequently .question-container .right .question-img {
     width: 100%;
   }
 
